@@ -93,8 +93,8 @@ public class MergeSort {
 		// TODO Auto-generated method stub
 		List<File> files = Arrays.asList(
 	            newTempFile(Arrays.asList("hello", "world")),
-	            newTempFile(Arrays.asList("english", "java", "programming")),
-	            newTempFile(Arrays.asList("american", "scala", "stackoverflow"))
+	            newTempFile(Arrays.asList("professional", "java8", "programming")),
+	            newTempFile(Arrays.asList("New York", "stock", "exchange"))
 	    );
 
 	    Iterator<String> sortedElements = new MergeFiles<>(files, line -> line).getSortedElements();
